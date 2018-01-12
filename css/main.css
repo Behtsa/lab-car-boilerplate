@@ -3,3 +3,8 @@ body {
 	padding: 0;
 }
 
+.bg-default {
+	background-color: #ffffff !important;
+	border-color: #ffffff !important;
+}
+
