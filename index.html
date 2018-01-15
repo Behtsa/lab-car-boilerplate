@@ -94,30 +94,56 @@
 	</section>
 	<!--Rates section-->
 	<section class="container-fluid form-style">
-		<form class="form-horizontal col-md-4 col-md-offset-1">
-			<h3 class="pd-left">Tarifas</h3>
-			<p class="pd-left">Consulta las tarifas LabCar aqui</p>
-  		<div class="form-group pd-form row">
-    		<label for="inputEmail3" class="col-sm-2 control-label"><i class="fa fa-eercast" aria-hidden="true"></i></label>
-    		<div class="col-sm-10">
-      	<input type="text" class="form-control placeholder" id="inputEmail3" placeholder="Ingrese su punto de partida">
-    		</div>
-  		</div>
-  		<div class="form-group pd-form row">
-    		<label for="inputPassword3" class="col-sm-2 control-label"><i class="fa fa-paper-plane" aria-hidden="true"></i></label>
-    		<div class="col-sm-10">
-      		<input type="text" class="form-control placeholder" id="inputPassword3" placeholder="Ingrese su destino">
-    		</div>
-  		</div>
-  		<div class="form-group pd-form row">
-    		<div class="col-sm-offset-2 col-sm-10">
-      		<button type="submit" class="btn btn-default"><strong>¡TRAZAR RUTA!</strong></button>
-    		</div>
-  		</div>
-		</form>
-		<!--Google map-->
-		<div class="mapa">
-			
+		<div class="row">
+			<!--form desktop-->
+			<form class="form-horizontal hidden-xs hidden-sm col-md-4 col-md-offset-1">
+				<h3 class="pd-left">Tarifas</h3>
+				<p class="pd-left">Consulta las tarifas LabCar aqui</p>
+	  		<div class="form-group pd-form row">
+	    		<label for="inputEmail3" class="col-sm-2 control-label"><i class="fa fa-eercast" aria-hidden="true"></i></label>
+	    		<div class="col-sm-10">
+	      	<input type="text" class="form-control placeholder" id="inputEmail3" placeholder="Ingrese su punto de partida">
+	    		</div>
+	  		</div>
+	  		<div class="form-group pd-form row">
+	    		<label for="inputPassword3" class="col-sm-2 control-label"><i class="fa fa-paper-plane" aria-hidden="true"></i></label>
+	    		<div class="col-sm-10">
+	      		<input type="text" class="form-control placeholder" id="inputPassword3" placeholder="Ingrese su destino">
+	    		</div>
+	  		</div>
+	  		<div class="form-group pd-form row">
+	    		<div class="col-xs-12 col-md-offset-2 col-md-10">
+	      		<button type="submit" class="btn btn-default"><strong>¡TRAZAR RUTA!</strong></button>
+	    		</div>
+	  		</div>
+			</form>
+			<!--form mobile-->
+			<form class="form-horizontal col-xs-11 col-xs-offset-1 col-sm-11 col-sm-offset-1 hidden-md hidden-lg">
+				<h3>Tarifas</h3>
+				<p class=>Consulta las tarifas LabCar aqui</p>
+	  		<div class="form-group pd-form row">
+	    		<label for="inputEmail3" class="col-xs-1 col-sm-1 control-label"><i class="fa fa-eercast" aria-hidden="true"></i></label> 
+	    		<div class="col-xs-10 col-sm-10">
+	      	<input type="text" class="form-control placeholder" id="inputEmail3" placeholder="Ingrese su punto de partida">
+	    		</div>
+	  		</div>
+	  		<div class="form-group pd-form row">
+	    		<label for="inputPassword3" class="col-xs-1 col-sm-1 control-label"><i class="fa fa-paper-plane" aria-hidden="true"></i></label>
+	    		<div class="col-xs-10 col-sm-10">
+	      		<input type="text" class="form-control placeholder" id="inputPassword3" placeholder="Ingrese su destino">
+	    		</div>
+	  		</div>
+	  		<div class="form-group pd-form row">
+	    		<div class="col-xs-12 col-md-offset-2 col-sm-12 col-sm-offset-2">
+	      		<button type="submit" class="btn btn-default"><strong>¡TRAZAR RUTA!</strong></button>
+	    		</div>
+	  		</div>
+			</form>
+			<!--Google map-->
+			<section class="col-xs-12 col-md-4 col-md-offset-2 map">
+				<div id="map">
+				</div>
+			</section>
 		</div>
 	</section>
 	<footer class="container-fluid">
@@ -181,5 +207,7 @@
 	<script
   src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./js/app.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script
 </body>
 </html>
