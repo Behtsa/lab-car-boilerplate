@@ -1,10 +1,130 @@
 body {
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'PT Sans', sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
 .bg-default {
-	background-color: #ffffff !important;
-	border-color: #ffffff !important;
+	background-color: #ffffff;
+	border-color: #ffffff;
 }
 
+.bg-jumbotron {
+	background-image: url(../assets/images/taxi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	height: 85vh;
+}
+
+.jumbotron-style {
+	background-color: #F7B617;
+	color: white;
+	margin-top: 8%;
+	padding: 10px 30px !important;
+}
+
+.hr-size {
+	border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: white; /* old IE */
+    background-color: white; /* Modern Browsers */
+}
+
+.hr-footer {
+    height: 1px;
+    /* Set the hr color */
+    color: white;
+}
+
+.btn-padding {
+	padding: 5px 12px;
+}
+
+.p-padding {
+	padding: 15px 0px;
+}
+
+.iPadding {
+	background-color: #F7B617;
+	color: white;
+	padding: 25px 0px;
+}
+
+.iBorder {
+	border-top: 2px solid white;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+	padding: 25px 0px;
+}
+
+.btn-bgcolor {
+	background-color: #F7B617;
+	border-color: rgba(54, 25, 25, .4);
+	color: white;
+}
+
+.bg-jumbo-image {
+	background-image: url(../assets/images/conduce.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+}
+
+.opacity {
+	 background: rgba(54, 25, 25, .4);
+	 border-radius: 0px !important;
+	 color: white;
+	 padding-top: 80px !important;
+	 padding-bottom: 20px !important;
+}
+
+.form-style {
+	background-color: #F7B617;
+	color: white;
+	padding: 80px 50px; 
+}
+
+.placeholder {
+	background-color: #F7B617;
+	border-color: white; 
+	border-radius: 10px;
+	color: white;
+}
+
+input::placeholder {
+	color: white !important;
+}
+
+.pd-form {
+	padding-top: 15px;
+}
+
+.pd-left {
+	padding-left: 25px;
+}
+
+footer {
+	background-color: #2B2B2B;
+	padding-top: 50px;
+}
+
+footer p {
+	color: white;
+}
+
+.pd-top {
+	padding-top: 110px;
+}
+
+.img-height {
+	height: 100px;
+}
+
+.white {
+	color: white;
+	padding: 0px 5px;
+}
