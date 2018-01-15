@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab-car</title>
+	<title>LabCar</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
@@ -39,8 +39,8 @@
 	</div>
 	<!-- Taxi section-->
 	<section class="container-fluid">
-		<div class=" bg-jumbotron row">
-			<div class="col-md-4 col-md-offset-8 hidden-xs jumbotron jumbotron-style">
+		<div class="bg-jumbotron row">
+			<div class="col-md-4 col-md-offset-8 hidden-xs hidden-sm jumbotron jumbotron-style">
 	  		<h2><strong>Disfruta del viaje <br> Eres dueño de tu tiempo</strong></h2>
 	  		<p class="p-padding">Viaja con <img src="./assets/images/logoBlanco.png"></p>
 	  		<p><a class="btn btn-default btn-lg btn-padding" href="#" role="button"><strong>REGISTRATE</strong></a></p>
@@ -51,12 +51,17 @@
 	  		</section>
 	  		<p><a class="btn btn-default btn-lg btn-padding" href="#" role="button"><strong>Conviertete en un conductor</strong></a></p>
 			</div>
-		</div>		
+			<!--Mobile jumbotron-->
+			<div class="hidden-lg hidden-md col-xs-10 col-xs-offset-2 jumbotron jumbotron-mobile">
+		   	<h2><strong>Comienza a viajar <br>con </strong><img src="./assets/images/logoBlanco.png"></h2>
+		  	<p><a class="btn btn-default btn-lg btn-padding" href="#" role="button"><strong>Descarga el app</strong></a></p>
+			</div>
+		</div>
 	</section>
 	<!--iPhone section-->
 	<section class="container-fluid">
 		<article class="iPadding row">
-			<div class="col-md-10 iBorder">
+			<div class="hidden-xs hidden-sm col-md-10 col-lg-10 iBorder">
 				<div class="col-md-3 col-md-offset-2">
 					<img class="img-responsive" src="./assets/images/iPhone6Plus.png">
 				</div>
@@ -66,18 +71,28 @@
 					<p class="text-justify">Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes; tu conductor sabe exactamente a donde ir.</p>
 				</div>
 			</div>
+			<!--iPhone mobile section-->
+			<div class="hidden-md hidden-lg col-xs-10 col-xs-offset-1 iBorder-mobile">
+				<div class="col-xs-10 col-sm-10">
+					<img class="img-responsive" src="./assets/images/iPhone6Plus.png">
+				</div>
+			</div>
+			<div class="col-xs-10 col-xs-offset-1 col-sm-10 hidden-md hidden-lg">
+				<p>Llega a tu destino más rápido</p>
+			</div>
 		</article>
 	</section>
 	<!--Driver section-->
 	<section class="container-fluid">
 		<div class=" bg-jumbo-image row">
-			<div class="col-xs-12 col-md-4 col-md-offset-8 jumbotron opacity">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-8 jumbotron opacity">
 	  		<h2><strong>Conduce cuando quieras</strong></h2>
 	  		<p>LabCar es una opción flexible para alcanzar tus metas financieras</p>
 	  		<p><a class="btn btn-default btn-bgcolor btn-lg btn-padding" href="#" role="button"><strong>Conviertete en conductor</strong></a></p>
 			</div>
 		</div>		
 	</section>
+	<!--Rates section-->
 	<section class="container-fluid form-style">
 		<form class="form-horizontal col-md-4 col-md-offset-1">
 			<h3 class="pd-left">Tarifas</h3>
@@ -113,7 +128,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-2 col-md-offset-4">
+			<div class="col-xs-2 col-sm-2 col-md-2 col-md-offset-4">
 				<p>Viaja</p>
 				<p>Conduce</p>
 				<p>Ciudades</p>
@@ -123,7 +138,7 @@
 				<p>Países</p>
 				<p>Seguridad</p>
 			</div>
-			<div class="col-md-2">
+			<div class="hidden-xs hidden-sm col-md-2">
 				<p>Oportunidades</p>
 				<p>Nuestra Historia</p>
 				<p>API de LabCar</p>
@@ -133,11 +148,11 @@
 				<p>Laboratoria</p>
 				<p>Coders</p>
 			</div>
-			<div class="col-md-2">
+			<div class="hidden-xs hidden-sm col-sm-6 col-md-2">
 				<p><img class="img-responsive pd-top" src="./assets/images/appstore.png"></p>
 				<p class="img-height"><img class="img-responsive" src="./assets/images/enBadgeWebGeneric.png"></p>
 			</div>
-			<div class="col-md-10 col-md-offset-1">
+			<div class="hidden-xs hidden-sm col-md-10 col-md-offset-1">
 				<span><i class="fa fa-facebook white" aria-hidden="true"></i></span>
 				<span><i class="fa fa-twitter white" aria-hidden="true"></i></span>
 				<span><i class="fa fa-linkedin white" aria-hidden="true"></i></span>
@@ -146,7 +161,20 @@
 				<hr class="hr-footer">
 				<p>&copy 2017 LabCar technologies Inc</p>
 			</div>
+			<div class="hidden-md hidden-lg col-xs-5 col-sm-5 col-xs-offset-3 col-sm-offset-3">
+				<span><i class="fa fa-facebook white" aria-hidden="true"></i></span>
+				<span><i class="fa fa-twitter white" aria-hidden="true"></i></span>
+				<span><i class="fa fa-linkedin white" aria-hidden="true"></i></span>
+				<span><i class="fa fa-apple white" aria-hidden="true"></i></span>
+				<span><i class="fa fa-play white" aria-hidden="true"></i></span>
+			</div>
+			<div class="hidden-md hidden-lg col-xs-5 col-sm-5 col-xs-offset-3 col-sm-offset-3">
+				<p><img class="img-responsive pd-top-mobile" src="./assets/images/appstore.png"></p>
+				<p class="img-height"><img class="img-responsive" src="./assets/images/enBadgeWebGeneric.png"></p>
+			</div>
 		</div>
+		<hr class="hidden-md hidden-lg hr-footer col-xs-11 col-sm-11">
+		<p class="hidden-md hidden-lg">&copy 2017 LabCar technologies Inc</p>
 	</footer>
 
 
