@@ -18,3 +18,4 @@ Consume any API we want to show a map on the page. I decided to use Google maps 
 ***
 
 ## Preview
+![imagen1](https://user-images.githubusercontent.com/9289461/38185166-70a1a23c-3612-11e8-9d5f-f4cc362223cb.png)
