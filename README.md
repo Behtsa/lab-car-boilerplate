@@ -16,7 +16,12 @@ Creating a responsive site using Bootstrap 3.
 Consume any API we want to show a map on the page. I decided to use Google maps API, in which I needed to get and API KEY to have access to the map.
 
 ***
+*Developed for Laboratoria.
 
 ## Preview
 
-*Developed for Laboratoria
+![imagen1responsive](https://user-images.githubusercontent.com/9289461/38185562-5b53c0de-3614-11e8-9d65-e8425abfa162.png)
+![imagen1](https://user-images.githubusercontent.com/9289461/38185166-70a1a23c-3612-11e8-9d5f-f4cc362223cb.png)
+
+
+
