@@ -18,3 +18,5 @@ Consume any API we want to show a map on the page. I decided to use Google maps 
 ***
 
 ## Preview
+
+*Developed for Laboratoria
